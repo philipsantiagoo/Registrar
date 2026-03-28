@@ -1,48 +1,36 @@
-# Cadastro de Clientes Personalizado
+# Customer Registry
 
-### 📚 Descrição
-• Programa capaz de cadastrar e salvar os dados de n clientes. Com opções como: código, nome, telefone, cidade... Simples, prático e intuitivo!
+A desktop application for registering and managing customer data, built with **Python**.
 
+## Features
 
-### 📚 Funcionalidades
-📌 Cadastro de nome, telefone e cidade <br>
-📌 Visibilidade das pessoas cadastradas <br>
-📌 Possibilidade de limpar os dados no momento do cadastro caso não queira salvá-los <br>
-📌 Opções como: buscar determinado cadastro tanto pelo nome, como pelo código da pessoa inserida <br>
-📌 Possibilidade de apagar um cadastro do banco de dados caso não seja mais necessário <br>
-📌 Capacidade de alteração de um cadastro! Apenas clicando duas vezes dos dados que deseja alterar! <br>
+- Register customers with name, phone number, and city
+- Search records by name or customer code
+- Edit any record by double-clicking the field
+- Delete records from the database
+- CEP lookup via **ViaCEP API** — automatically fills in neighborhood and address
+- Generate a personalized PDF report for any record in two clicks via the **Report** menu
+- Built-in calendar view
+- Tooltips on every function — just hover for a second
+- Clear form data without saving, and exit via the menu
 
-📌 Buca pelo CEP (com API ViaCEP): inserir o CEP de determinada região da pessoa cadastrada para obter informações adicionais como: bairro e endereço próximos! <br>
+## Technologies
 
-📌 Possibilidade de gerar um pdf personalizado de qualquer cadastro que tenha sido realizado com apenas dois toques e depois clicando no menu 'Relatório'! <br>
+- Python
+- Libraries: `tkinter`, `sqlite3`, `time`
 
-📌 Visibilidade de um calendário intuitivo <br>
-📌 Menus 'limpar Dados' do cadastro - fora o próprio botão - e 'Sair' do programa <br>
-📌 Dicas adicionais sobre o que cada função faz no programa, apenas segurando o mouse e esperando um segundo! <br>
+## Download & Run
 
+[Download](https://drive.google.com/file/d/1tl7AIXujYb79_6EP8pMMJMiz7mcES4QG/view?usp=sharing) the executable and run it directly — no installation required.
 
-### 📚 Tecnologias Utilizadas
-• Python <br>
-• **Bibliotecas Utilizadas**: 
-1. tkinter
-2. sqlite3
-3. time
+> **Note:** Windows may display a security warning when running the program. If that happens, click **More info** → **Run anyway**. The program will work normally.
 
- ##
+## Roadmap
 
- ### 📚 Execução
- • Acesse o link: https://drive.google.com/file/d/1tl7AIXujYb79_6EP8pMMJMiz7mcES4QG/view?usp=sharing <br>
- • Baixe o programa <br>
- • Utilize sem problemas!
- ### 📚 Informações
-• Dependendo do computador ou notebook, o Windows pode exibir um aviso impedindo a instalação do programa. Nesse caso, basta clicar em 'Mais informações' e, em seguida, em 'Executar assim mesmo'. O programa funcionará normalmente.
+- UI redesign
+- Persist Tab II data to the database
+- Save calendar annotations to the database
 
-# 
+## License
 
-### 📚 Melhorias Futuras
-📌 Atualização da Interface Gráfica <br>
-📌 Atualização do Banco de Dados para armazenamento das opções da 'Aba II' do programa <br>
-📌 Possiblididade de salvar no Banco de Dados as anotações realizadas no calendário
-
-#
-
+This project is licensed under the [MIT License](LICENSE).
